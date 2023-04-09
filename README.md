@@ -3,7 +3,7 @@
 ## Paper Reading
 First, you need to read the paper ["Clusters in the Expanse: Understanding and Unbiasing IPv6 Hitlists"](https://dl.acm.org/doi/abs/10.1145/3278532.3278564) so that you can understand the entire work. 
 
-Next, you can choose one of these three representative works to read: ["Target generation for internet-wide IPv6 scanning"](https://dl.acm.org/doi/abs/10.1145/3131365.3131405), ["6Tree: Efficient dynamic discovery of active addresses in the IPv6 address space"](https://www.sciencedirect.com/science/article/abs/pii/S1389128618312003) and ["Entropy/IP: Uncovering Structure in IPv6 Addresses"](https://dl.acm.org/doi/abs/10.1145/2987443.2987445).
+Next, you can choose to read one of the following three papers on address generation models: ["Target generation for internet-wide IPv6 scanning"](https://dl.acm.org/doi/abs/10.1145/3131365.3131405), ["6Tree: Efficient dynamic discovery of active addresses in the IPv6 address space"](https://www.sciencedirect.com/science/article/abs/pii/S1389128618312003) and ["Entropy/IP: Uncovering Structure in IPv6 Addresses"](https://dl.acm.org/doi/abs/10.1145/2987443.2987445). 
 
 ## Experiments
 Your goal is to detect active IPv6 addresses in the Internet, which are addresses that can communicate using any network protocol. In IPv4, there are very mature tools ([ZMap](https://github.com/zmap/zmap)) that can accomplish this task, because the IPv4 address space is very limited and it is easy to use traversal methods for detection. However, the IPv6 address space is too large, with 2 to the power of 128 addresses, so traversal is not feasible. To address the problem of detecting active IPv6 addresses, recent research has formed four steps:
@@ -24,5 +24,5 @@ Thirdly, you need to use the methods described in one of the three papers mentio
 
 Finally, you need to scan the new IPv6 addresses that you have generated, and we recommend using [ZMapv6](https://github.com/tumi8/zmap) for this purpose. If it doesn't meet your scanning needs, you can also implement your own scanning tool.
 
-## Requirement
+## Requirements
 As the basis for your final grade, you will need to make a final presentation and submit the relevant code and data. The specific details can be obtained by consulting the teaching assistants. I hope you will gain something valuable from the FIA class😊.
