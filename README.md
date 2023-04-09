@@ -20,9 +20,10 @@ Firstly, you don't need to reproduce the method of building IPv6 Hitlists. You c
 
 Secondly, you need to reproduce the method of aliased prefix detection described in the "Clusters in the Expanse" paper, and use the detection results to filter the IPv6 Hitlists.
 
-Thirdly, you need to use the methods described in one of the three papers mentioned above to generate new IPv6 addresses. You can use publicly available code or replicate the methods on your own. Of course, if you can come up with your own address generation model, you can use your own model to complete this step.
+Thirdly, you need to use the methods described in one of the three papers mentioned above to generate new IPv6 addresses. You can use publicly available code or replicate the methods on your own. Of course, if you can come up with your own address generation model, you can use your own model to complete this step👍.
 
 Finally, you need to scan the new IPv6 addresses that you have generated, and we recommend using [ZMapv6](https://github.com/tumi8/zmap) for this purpose. If it doesn't meet your scanning needs, you can also implement your own scanning tool.
 
 ## Requirement
-As the basis for your final grade, you will need to make a final presentation and submit the relevant code and data. The specific details can be obtained by consulting the teaching assistants.
+As the basis for your final grade, you will need to make a final presentation and submit the relevant code and data. The specific details can be obtained by consulting the teaching assistants. I hope you will gain something valuable from the FIA class😊.
+Next, you can choose one of these three representative works to read: ["Target generation for internet-wide IPv6 scanning"](https://dl.acm.org/doi/abs/10.1145/3131365.3131405), ["6Tree: Efficient dynamic discovery of active addresses in the IPv6 address space"](https://www.sciencedirect.com/science/article/abs/pii/S1389128618312003) and ["Entropy/IP: Uncovering Structure in IPv6 Addresses"](https://dl.acm.org/doi/abs/10.1145/2987443.2987445).
