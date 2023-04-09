@@ -20,7 +20,7 @@ Firstly, you don't need to reproduce the method of building IPv6 Hitlists. You c
 
 Secondly, you need to reproduce the method of aliased prefix detection described in the "Clusters in the Expanse" paper, and use the detection results to filter the IPv6 Hitlists.
 
-Thirdly, you need to use the methods described in one of the three papers mentioned above to generate new IPv6 addresses. You can use publicly available code or replicate the methods on your own. Of course, if you can come up with your own address generation model, you can use your own model to complete this step👍.
+Thirdly, you need to use the methods described in one of the three papers mentioned above to generate new IPv6 addresses. You can use publicly available code or reproduce the methods on your own. Of course, if you can come up with your own address generation model, you can use your own model to complete this step👍.
 
 Finally, you need to scan the new IPv6 addresses that you have generated, and we recommend using [ZMapv6](https://github.com/tumi8/zmap) for this purpose. If it doesn't meet your scanning needs, you can also implement your own scanning tool.
 
