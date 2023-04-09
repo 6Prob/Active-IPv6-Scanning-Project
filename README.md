@@ -26,4 +26,3 @@ Finally, you need to scan the new IPv6 addresses that you have generated, and we
 
 ## Requirement
 As the basis for your final grade, you will need to make a final presentation and submit the relevant code and data. The specific details can be obtained by consulting the teaching assistants. I hope you will gain something valuable from the FIA class😊.
-Next, you can choose one of these three representative works to read: ["Target generation for internet-wide IPv6 scanning"](https://dl.acm.org/doi/abs/10.1145/3131365.3131405), ["6Tree: Efficient dynamic discovery of active addresses in the IPv6 address space"](https://www.sciencedirect.com/science/article/abs/pii/S1389128618312003) and ["Entropy/IP: Uncovering Structure in IPv6 Addresses"](https://dl.acm.org/doi/abs/10.1145/2987443.2987445).
